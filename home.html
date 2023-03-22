@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<title>Assignment 4</title>
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+	
+	<style>
+		body {
+			background-color: rgba(0,0,0, 0.5);
+            background-color: pink;
+		}
+		#header {
+			background-color: #000;
+			height: 200px;
+            background-image:url('img/pho.png');
+            background-size: cover;
+            text-align: center;
+			line-height: 500px;
+			text-shadow: 0px 0px 10px #000;
+		}
+		h1 {
+			line-height: 200px;
+			color: #FFF;
+		}
+        h2 {
+            text-align: center;
+            color: navy;
+            margin-top: 20px;
+        }
+        #main{
+            background-color: red;
+        }
+		#content {
+			background-color: #FFF;
+		}
+        .img{
+            height: 200px;
+            float: right;  
+            padding: 15px;
+        }
+		#sidebar {
+			background-color: #EEE;
+            
+            /* margin-top: -444px; */
+		}
+		#sidebar img {
+			max-width: 100%;
+		}
+		#footer {
+			background-color: rgb(177, 81, 81);
+			color: #FFF;
+			font-size: 0.8em;
+			height: 50px;
+			line-height: 50px;
+		}
+		/* Small devices (landscape phones, 576px and up) */
+		@media (min-width: 576px) { 
+		}
+		/* Medium devices (tablets, 768px and up) */
+		@media (min-width: 768px) { 
+		}
+		/* Large devices (desktops, 992px and up) */
+		@media (min-width: 992px) { 
+
+		}
+		/* Extra large devices (large desktops, 1200px and up) */
+		@media (min-width: 1200px) { 
+
+		}
+	</style>
+</head>
+<body>
+
+	<div id="header" class="container-fluid">
+		<div class="row">
+			<h1 class="col-12 text-center">Food</h1>
+		</div> <!-- .row -->
+	</div> <!-- #header -->
+
+	<div id="main" class="container">
+		<div class="row">
+			<div id="content" class="col-12 col-lg-8">
+			<div>
+				<h2>Matcha</h2>
+                <img class ="img" src="img/matcha.jpeg" alt="matcha">
+				<p>Matcha is my favorite drink. I make it every morning. All you need is a teaspoon of ceremonial grade matcha, a teaspoon of agave nectar, a teaspoon of hot water, and a cup of oat milk!
+                    Matcha is a type of powdered green tea that's rich in antioxidants. </p>
+
+				<p>With traditional green tea, the leaves are steeped in hot water and then discarded. But with matcha, the dried leaves are actually 
+                    ground into a powder, mixed into the drink, and consumed. The tea has a unique, non-bitter taste and vibrant green color and is 
+                    regarded as the most aromatic form of green tea (health, 2022).</p>
+			</div> <!-- #content -->
+            
+            <div>
+				<h2>Tacos</h2>
+                <img class ="img" src="img/tacos.png" alt="tacos">
+				<p>My favorite taco place is called Tacos Tamix. They specialize in al pastor tacos and have a great ambiance outisde! Great spot for USC students as it's in the fryft zone! Some trucks think soft globs of 
+                    reddish pork, warmed momentarily on a griddle, suffices. </p>
+
+				<p>Others keep their offering drier and more crumbly, letting fiery salsa rojas take center stage. But without the vertical spit, pressed tightly with marinated pork and topped with a large chunk of pineapple, 
+                    you'd be hard-pressed to find al pastor worth the late-night calories.</p>
+			</div> <!-- #content -->
+
+            <div >
+				<h2>Sushi</h2>
+                <img class ="img" src="img/sushi.png" alt="tacos">
+				<p>Tenno sushi is the best sushi spot in Little Tokyo in my opinion. My friends and I go there almost every weekend. Their bio says "Tenno Sushi is a high quality restaurant for Lunch & Dinner. We strive to provide a fresh new taste for busy "On the go" people, who want a healtheir & tastier meal. 
+                    Tenno Sushi catering promise that our chef's wouldn't think of pre-making sushi. </p>
+
+				<p>It's all made to order every order. We welcome phone ahead, take out and catering orders. 
+                    Please visit us often, bring you friends and family, and experience the joy that is Tenno Sushi."</p>
+			</div> <!-- #content -->
+        </div>
+			<div id="sidebar" class="col-12 col-lg-4">
+
+				<h2 class="text-center">Images</h2>
+
+				<div class="row">
+
+					<div class="text-center col-6 col-md-3 col-lg-8 mx-auto">
+						<img src= "img/sushi2.png" alt="Sushi">
+						<p>Sushi</p>
+					</div>
+
+					<div class="text-center col-6 col-md-3 col-lg-8 mx-auto">
+						<img src="img/ramen-nagi.png" alt="Ramen">
+						<p>Ramen</p>
+					</div>
+
+					<div class="text-center col-6 col-md-3 col-lg-8 mx-auto">
+						<img src="img/sando.jpeg" alt="Sando">
+						<p>Fruit Sando</p>
+					</div>
+
+					<div class="text-center col-6 col-md-3 col-lg-8 mx-auto">
+						<img src="img/brulee.png" alt="Creme Brulee">
+						<p>Tacos</p>
+					</div>
+
+				</div> <!-- .row -->
+
+			</div> <!-- #sidebar -->
+		</div> <!-- .row -->
+	</div> <!-- #main -->
+
+	<div class="container-fluid">
+		<div class="row">
+				<div class="col-12 text-center" id="footer">
+                    University of Southern California &copy; 2023 by Ashley Tran
+				</div> <!-- #footer -->
+		</div> <!-- .row -->
+	</div> <!-- .container-fluid -->
+
+
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+
+</body>
+</html>
